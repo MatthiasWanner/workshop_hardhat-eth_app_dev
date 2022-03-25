@@ -7,7 +7,8 @@
     "dev": "npx hardhat node",
     "test": "npx hardhat test",
     "build": "npx hardhat compile",
-    "balances": "npx hardhat run scripts/get_eth_balances.ts --network localhost"
+    "balances": "npx hardhat run scripts/get_eth_balances.ts --network localhost",
+    "deployToken": "npx hardhat run scripts/deploy_token.ts --network localhost"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
