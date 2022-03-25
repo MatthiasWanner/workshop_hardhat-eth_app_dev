@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "script": {
+  "scripts": {
     "dev": "npx hardhat node",
     "test": "npx hardhat test",
-    "build": "npx hardhat compile"
+    "build": "npx hardhat compile",
+    "balances": "npx hardhat run scripts/get_eth_balances.ts --network localhost"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
